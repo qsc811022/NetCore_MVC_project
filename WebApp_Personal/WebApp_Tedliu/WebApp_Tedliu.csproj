@@ -20,4 +20,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tedliu.Application\Tedliu.Application.csproj" />
+    <ProjectReference Include="..\Tedliu.Domain\Tedliu.Domain.csproj" />
+    <ProjectReference Include="..\Tedliu.infrastructure\Tedliu.infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
